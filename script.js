@@ -32,13 +32,9 @@ const I18N = {
     bn_h:'An ornament is a <span class="ol">language</span> older than fashion.',bn_p:'Each pattern says who you are and where you come from. Leyli writes it by hand, line by line, on the blazer you will wear.',bn_cta:'Order a piece',
     pl_t:'Hand-painted blazer',pl_e:'Edition 1 of 1',pl_tip:'Move over the work to magnify',v_close:'Close',
     ba_h:'From blank to painted',ba_s:'Drag the line to see what hand painting changes.',ba_before:'Before',ba_after:'After',ba_aria:'Before and after comparison',
-    nav_orn:'Ornaments',orn:'Ornament and its meaning',orn_s:'Every pattern carries a story. Turkmen motifs are one of the languages the pieces are written in.',
-    o1:'The traditional headdress of Turkmen women: gilded plates set with red stones. On the blazer it is painted as a portrait, not copied.',
-    o2:'The medallion of Turkmen carpets. Each tribe has its own gül, so the motif works as a sign of belonging.',
-    o3:'Silver pendants and chains frame the face, as in traditional dress, and give the portrait its light.',
-    o4:'A black cap with a hand-painted portrait of a girl in an ornate headdress, surrounded by red flowers and gold accents. Traditional ornament in a modern accessory.',
-    o5:'A black blazer hand-painted on the back with a girl in a red crystal-studded kokoshnik and a long braid tied with a red ribbon. Red flowers and viburnum berries carry the traditional ornament.',
-    o6:'A black blazer hand-painted with a girl in a red traditional costume holding a pomegranate to her face. Carpet-style motifs, gold sequins, beadwork, a calligraphic “Ayseli” and a crescent moon on the shoulder.',
+    lb_bl1:'Hand-painted blazer: a woman and a warrior behind a sword',lb_bl2:'Hand-painted blazer: a Turkmen bride in a veil with silver jewellery',lb_bl3:'Hand-painted blazer: a girl in a kokoshnik of pearls and lace',lb_bl4:'Hand-painted blazer: a girl with a pomegranate and carpet motifs, with a name',lb_bl5:'Hand-painted blazer: a girl in a red kokoshnik with crystals and a red bow',lb_bl6:'Hand-painted jacket: a Turkmen bride with a silver pendant',lb_bl7:'Hand-painted blazer: a girl in a flower wreath and embroidered blouse',lb_dn1:'Hand-painted denim jacket: a girl in a veil with braids',lb_dn2:'Hand-painted denim jacket: a Turkmen bride in a veil',lb_dn3:'Hand-painted denim jacket on a chair: a bride in a veil',lb_dn4:'Hand-painted white jacket: an abstract portrait with gold',lb_cp1:'Hand-painted baseball cap: a girl in a kokoshnik with flowers',lb_tt1:'Hand-painted white T-shirt: a girl in a Turkmen headdress',lb_tt2:'Hand-painted black T-shirt: a girl with green eyes and silver pendants',lb_dt1:'Close-up: silver pendants and a painted face',lb_dt2:'Close-up: red stones and a profile in paint',lb_dt3:'Close-up: a painted gold plate with red stones',lb_dt4:'Process: a portrait on black fabric with brushes and a ribbon',lb_w1:'Painted jacket worn on a model',lb_w2:'Painted jacket worn on a model',lb_w3:'Painted jacket worn by a model in Milan',lb_w4:'Painted jacket worn on a model',lb_w5:'Painted jacket worn by a model in Venice',lb_w6:'Painted jacket worn on a model',
+    nav_look:'Lookbook',bk_h:'Lookbook',bk_s:'Blazers, denim, caps and how they look in real life.',bk_kicker:'Hand-painted · One of one',bk_blazer:'Blazers',bk_cap:'Caps',bk_model:'On model',bk_denim:'Denim jackets',bk_tee:'T-shirts',bk_detail:'Details',bk_d_blazer:'Each blazer is painted by hand from the first line to the last, and exists only once.',bk_d_cap:'A smaller canvas with the same care: a portrait and ornament on a cap you wear every day.',bk_d_model:'How the pieces live when worn: movement, light and the painted story on a real person.',bk_d_denim:'Denim takes paint differently: the weave shows through and every stroke keeps its texture.',bk_d_tee:'Light and dark cotton, one painting on each. Art you can wear every day.',bk_d_detail:'Close-ups: silver pendants, painted stones and the texture of the brush.',bk_zoom:'Zoom in to see the paint',bk_cta:'Order a piece like this',bk_aria:'Lookbook chapters',
+    
     ab_lead:'Art that remembers its roots.',
     ab_1:'Leyli Karova is a Turkmen artist who paints ornament and portraits by hand on blazers. Traditional jewellery, headdresses and carpet patterns become clothing meant to be worn, not stored. The motif can be Turkmen or any other: the story is yours to choose.',
     ab_2:'Each piece is made for one person and is never repeated.',
@@ -84,13 +80,9 @@ const I18N = {
     bn_h:'Орнамент — <span class="ol">язык</span> старше моды.',bn_p:'Каждый узор говорит, кто вы и откуда. Лейли пишет его вручную, линия за линией, на пиджаке, который вы будете носить.',bn_cta:'Заказать работу',
     pl_t:'Пиджак, роспись вручную',pl_e:'Тираж 1 из 1',pl_tip:'Проведите по работе, чтобы увеличить',v_close:'Закрыть',
     ba_h:'От чистого к расписанному',ba_s:'Двигайте линию, чтобы увидеть, что меняет роспись.',ba_before:'До',ba_after:'После',ba_aria:'Сравнение до и после',
-    nav_orn:'Орнаменты',orn:'Орнамент и его смысл',orn_s:'У каждого узора есть история. Туркменские мотивы — один из языков, на которых написаны работы.',
-    o1:'Традиционный головной убор туркменских женщин: золочёные пластины с красными камнями. На пиджаке он написан как портрет, а не скопирован.',
-    o2:'Медальон туркменских ковров. У каждого племени свой гёль, поэтому мотив служит знаком принадлежности.',
-    o3:'Серебряные подвески и цепочки обрамляют лицо, как в традиционном наряде, и дают портрету свет.',
-    o4:'Чёрная кепка с рисунком, выполненным вручную: девушка в узорном уборе и красные цветы с золотыми акцентами. Традиционный орнамент в современном аксессуаре.',
-    o5:'Чёрный жакет с ручной росписью на спине: девушка в красном кокошнике, украшенном кристаллами, с длинной косой и алой лентой. Красные цветы и ягоды калины продолжают традиционный орнамент.',
-    o6:'Чёрный жакет с ручной росписью: девушка в красном национальном наряде с гранатом у лица. Ковровые узоры, золотые пайетки, бисер, каллиграфическая надпись «Ayseli» и полумесяц на плече.',
+    lb_bl1:'Расписной пиджак: женщина и воин за мечом',lb_bl2:'Расписной пиджак: туркменская невеста в покрывале с серебряными украшениями',lb_bl3:'Расписной пиджак: девушка в кокошнике из жемчуга и кружева',lb_bl4:'Расписной пиджак: девушка с гранатом и ковровыми мотивами, с именем',lb_bl5:'Расписной пиджак: девушка в красном кокошнике с кристаллами и бантом',lb_bl6:'Расписная куртка: туркменская невеста с серебряной подвеской',lb_bl7:'Расписной пиджак: девушка в венке из цветов и вышитой блузе',lb_dn1:'Расписная джинсовая куртка: девушка в покрывале с косами',lb_dn2:'Расписная джинсовая куртка: туркменская невеста в покрывале',lb_dn3:'Расписная джинсовая куртка на стуле: невеста в покрывале',lb_dn4:'Расписная белая куртка: абстрактный портрет с золотом',lb_cp1:'Расписная бейсболка: девушка в кокошнике с цветами',lb_tt1:'Расписная белая футболка: девушка в туркменском головном уборе',lb_tt2:'Расписная чёрная футболка: девушка с зелёными глазами и серебряными подвесками',lb_dt1:'Крупный план: серебряные подвески и расписное лицо',lb_dt2:'Крупный план: красные камни и профиль в краске',lb_dt3:'Крупный план: расписная золотая пластина с красными камнями',lb_dt4:'Процесс: портрет на чёрной ткани, кисти и лента',lb_w1:'Расписная куртка на модели',lb_w2:'Расписная куртка на модели',lb_w3:'Расписная куртка на модели в Милане',lb_w4:'Расписная куртка на модели',lb_w5:'Расписная куртка на модели в Венеции',lb_w6:'Расписная куртка на модели',
+    nav_look:'Лукбук',bk_h:'Lookbook',bk_s:'Пиджаки, джинсовки, бейсболки и как всё это выглядит в жизни.',bk_kicker:'Расписано вручную · В единственном экземпляре',bk_blazer:'Пиджаки',bk_cap:'Бейсболки',bk_model:'На модели',bk_denim:'Джинсовки',bk_tee:'Футболки',bk_detail:'Детали',bk_d_blazer:'Каждый пиджак расписан вручную от первой линии до последней и существует в единственном экземпляре.',bk_d_cap:'Маленькое полотно с тем же вниманием к деталям: портрет и узор на бейсболке, которую носят каждый день.',bk_d_model:'Как работы выглядят в жизни: движение, свет и роспись на живом человеке.',bk_d_denim:'Деним принимает краску иначе: фактура ткани проступает, и каждый мазок сохраняет рельеф.',bk_d_tee:'Светлый и тёмный хлопок, по одной росписи на каждой. Искусство, которое носят каждый день.',bk_d_detail:'Крупным планом: серебряные подвески, нарисованные камни и фактура мазка.',bk_zoom:'Приблизьте, чтобы увидеть краску',bk_cta:'Заказать такую работу',bk_aria:'Главы лукбука',
+    
     ab_lead:'Искусство, которое помнит свои корни.',
     ab_1:'Лейли Карова — туркменская художница, которая вручную рисует орнаменты и портреты на пиджаках. Традиционные украшения, головные уборы и ковровые узоры становятся одеждой, которую носят, а не хранят. Мотив может быть туркменским или любым другим: историю выбираете вы.',
     ab_2:'Каждая работа создаётся для одного человека и не повторяется.',
@@ -132,13 +124,9 @@ const I18N = {
     bn_h:'Nagyş — modadan hem gadymy <span class="ol">dil</span>.',bn_p:'Her nagyş siziň kimdigiňizi we nireden gelýändigiňizi aýdýar. Leýli ony siziň geýjek penjegiňize çyzyk-çyzyk, elde çekýär.',bn_cta:'Eser sargyt et',
     pl_t:'Penjek, elde çekilen',pl_e:'Tiraž 1 / 1',pl_tip:'Ulaltmak üçin eseriň üstünden süýşüriň',v_close:'Ýap',
     ba_h:'Arassadan nagyşlanana çenli',ba_s:'Nagyşyň nämäni üýtgedýändigini görmek üçin çyzygy süýşüriň.',ba_before:'Öň',ba_after:'Soň',ba_aria:'Öň we soň deňeşdirmesi',
-    nav_orn:'Nagyşlar',orn:'Nagyş we onuň many-mazmuny',orn_s:'Her nagşyň öz hekaýasy bar. Türkmen nagyşlary eserler ýazylýan dilleriň biridir.',
-    o1:'Türkmen aýallarynyň milli baş geýimi: gyzyl daşly, altyn suwly plastinalar. Penjekde ol göçürilmän, portret hökmünde çekilýär.',
-    o2:'Türkmen halylarynyň medalýony. Her tireniň öz gölü bar, şonuň üçin nagyş degişlilik alamaty bolup hyzmat edýär.',
-    o3:'Kümüş asylgylar we zynjyrlar ýüzi milli lybasdaky ýaly gurşap alýar we portrete ýagtylyk berýär.',
-    o4:'Elde çekilen suratly gara kepka: nagyşly baş geýimli gyz we altyn öwüşginli gyzyl güller. Häzirki zaman goşundysynda däp bolan nagyş.',
-    o5:'Arkasyna elde çekilen gara žaket: kristallar bilen bezelen gyzyl kokoşnikli, uzyn örümli we gyzyl lentaly gyz. Gyzyl güller we kalina miweleri däp bolan nagşy dowam etdirýär.',
-    o6:'Elde nagyşlanan gara žaket: ýüzüniň ýanynda nar bilen gyzyl milli lybasdaky gyz. Haly nagyşlary, altyn pailetkalar, monjuk, «Ayseli» diýen kalligrafiýa ýazgysy we egnindäki ýarym aý.',
+    lb_bl1:'Elde çekilen penjek: aýal we gylyçly ýigit',lb_bl2:'Elde çekilen penjek: kümüş bezegli türkmen gelni',lb_bl3:'Elde çekilen penjek: incili we kruživo kokoşnikli gyz',lb_bl4:'Elde çekilen penjek: nar we haly nagyşly gyz, ady bilen',lb_bl5:'Elde çekilen penjek: gyzyl kokoşnikli gyz, kristallar we gyzyl kepbe bilen',lb_bl6:'Elde çekilen penjek: kümüş asylgyly türkmen gelni',lb_bl7:'Elde çekilen penjek: gül täji we nagyşly köýnekli gyz',lb_dn1:'Elde çekilen jins penjek: ýüzlük we örüm saçly gyz',lb_dn2:'Elde çekilen jins penjek: ýüzlükli türkmen gelni',lb_dn3:'Oturgyçda elde çekilen jins penjek: ýüzlükli gelin',lb_dn4:'Elde çekilen ak penjek: altyn bilen abstrakt portret',lb_cp1:'Elde çekilen beýsbolka: gül bilen kokoşnikli gyz',lb_tt1:'Elde çekilen ak futbolka: türkmen baş geýimli gyz',lb_tt2:'Elde çekilen gara futbolka: ýaşyl gözli, kümüş asylgyly gyz',lb_dt1:'Ýakyn surat: kümüş asylgylar we reňkli ýüz',lb_dt2:'Ýakyn surat: gyzyl daşlar we boýag bilen profil',lb_dt3:'Ýakyn surat: gyzyl daşly, boýalan altyn tabak',lb_dt4:'Proses: gara mata çekilen portret, çotgalar we lenta',lb_w1:'Model üstünde elde çekilen penjek',lb_w2:'Model üstünde elde çekilen penjek',lb_w3:'Milanda model üstünde elde çekilen penjek',lb_w4:'Model üstünde elde çekilen penjek',lb_w5:'Wenesiýada model üstünde elde çekilen penjek',lb_w6:'Model üstünde elde çekilen penjek',
+    nav_look:'Lukbuk',bk_h:'Lookbook',bk_s:'Penjekler, jins penjekler, beýsbolkalar we olaryň durmuşda nähili görünýändigi.',bk_kicker:'Elde çekilen · Ýekeje nusgada',bk_blazer:'Penjekler',bk_cap:'Beýsbolkalar',bk_model:'Modelde',bk_denim:'Jins penjekler',bk_tee:'Futbolkalar',bk_detail:'Jikme-jiklikler',bk_d_blazer:'Her penjek ilkinji çyzykdan soňkusyna çenli elde çekilýär we diňe bir nusgada bar.',bk_d_cap:'Şol bir üns bilen kiçi mata: her gün geýilýän beýsbolkada portret we nagyş.',bk_d_model:'Eserler durmuşda nähili görünýär: hereket, ýagtylyk we adamyň üstündäki nagyş.',bk_d_denim:'Jins boýagy başgaça kabul edýär: matanyň gurluşy göze ilýär we her çyzyk öz relýefini saklaýar.',bk_d_tee:'Açyk we gara pagta, her birinde bir nagyş. Her gün geýip bolýan sungat.',bk_d_detail:'Ýakyndan: kümüş asylgylar, çekilen daşlar we çotganyň yzy.',bk_zoom:'Boýagy görmek üçin ýakynlaşdyryň',bk_cta:'Şeýle iş sargyt ediň',bk_aria:'Lukbugyň bölümleri',
+    
     ab_lead:'Öz köklerini ýada salýan sungat.',
     ab_1:'Leýli Karowa — penjeklere nagyşlary we portretleri elde çekýän türkmen suratkeşi. Däp bolan şaý-sepler, baş geýimler we haly nagyşlary saklanylmaýan, eýsem geýilýän lybasa öwrülýär. Nagyş türkmen ýa-da başga islendik bolup biler: hekaýany özüňiz saýlaýarsyňyz.',
     ab_2:'Her eser bir adam üçin döredilýär we gaýtalanmaýar.',
@@ -168,6 +156,7 @@ function setLang(l){
   document.querySelectorAll('[data-i18n]').forEach(el=>{ const v=I18N[l][el.dataset.i18n]; if(v===undefined) return; if(v.indexOf('<span class="ol">')>-1) el.innerHTML=v; else el.textContent=v; });
   document.querySelectorAll('.lang button').forEach(b=>b.setAttribute('aria-pressed', b.dataset.lang===l));
   if(window.updateNow) updateNow();
+  if(window.lbSync) lbSync();
   renderReviews();
   renderMarquee();
   if(window.tourRefresh) tourRefresh();
@@ -192,6 +181,87 @@ document.querySelectorAll('.lang button').forEach(b=>b.addEventListener('click',
   addEventListener('keydown',e=>{ if(e.key==='Escape'&&menu.classList.contains('on')){ set(false); btn.focus(); } });
   const mq=matchMedia('(min-width:761px)'); const off=e=>{ if(e.matches) set(false); };
   if(mq.addEventListener) mq.addEventListener('change',off); else if(mq.addListener) mq.addListener(off);
+})();
+
+/* ---------- lookbook: magazine spread ---------- */
+(function(){
+  const root=document.getElementById('lookbook'); if(!root) return;
+  const tabs=[...root.querySelectorAll('.mag-tab')], thumbs=[...root.querySelectorAll('.mag-th')];
+  const imgs=[document.getElementById('magImgA'),document.getElementById('magImgB')], frame=root.querySelector('.mag-frame'), side=document.getElementById('magSide');
+  const noEl=document.getElementById('magNo'), chEl=document.getElementById('magCh'), titleEl=document.getElementById('magTitle'), descEl=document.getElementById('magDesc');
+  const reduce=matchMedia('(prefers-reduced-motion: reduce)').matches, touch=matchMedia('(hover: none)').matches;
+  const order=tabs.map(t=>t.dataset.f); let cat=order[0], idx=0, tok=0, front=0, anim=null, swapT=0, flip=null;
+  const pad=n=>String(n).padStart(2,'0');
+  const T=k=>{ const d=I18N[document.documentElement.lang]||I18N.en; return d[k]!==undefined?d[k]:I18N.en[k]; };
+  const list=()=>thumbs.filter(t=>t.dataset.cat===cat);
+  function show(i){
+    const arr=list(); if(!arr.length) return;
+    idx=(i+arr.length)%arr.length; const t=arr[idx];
+    thumbs.forEach(x=>{ x.classList.toggle('on',x===t); if(x===t) x.setAttribute('aria-current','true'); else x.removeAttribute('aria-current'); });
+    noEl.textContent=pad(idx+1)+' / '+pad(arr.length);
+    const strip=document.getElementById('magThumbs');
+    strip.scrollTo({left:t.offsetLeft-(strip.clientWidth-t.offsetWidth)/2,behavior:reduce?'auto':'smooth'});
+    frame.classList.remove('is-zoom');
+    const src=t.dataset.src, key=t.dataset.k||'', alt=key?T(key):t.dataset.alt, my=++tok;
+    if(imgs[front].getAttribute('src')===src) return;
+    const pre=new Image();
+    pre.onload=pre.onerror=()=>{
+      if(my!==tok) return;
+      if(anim){ anim.cancel(); anim=null; }
+      const fr=imgs[front], bk=imgs[1-front];
+      bk.src=src; bk.alt=alt; bk.dataset.k=key; bk.removeAttribute('aria-hidden'); fr.setAttribute('aria-hidden','true'); fr.alt='';
+      bk.style.visibility='visible'; bk.style.zIndex=2; fr.style.zIndex=1; front=1-front;
+      if(reduce||!bk.animate){ fr.style.visibility='hidden'; return; }
+      anim=bk.animate([{clipPath:'inset(0 100% 0 0)'},{clipPath:'inset(0 0 0 0)'}],{duration:950,easing:'cubic-bezier(.7,0,.2,1)'});
+      anim.onfinish=()=>{ fr.style.visibility='hidden'; anim=null; };
+    };
+    pre.src=src;
+  }
+  function setCat(c){
+    if(c===cat) return;
+    cat=c;
+    tabs.forEach(t=>t.setAttribute('aria-pressed', t.dataset.f===c));
+    thumbs.forEach(t=>{ t.hidden=t.dataset.cat!==c; });
+    const swap=()=>{
+      chEl.textContent=pad(order.indexOf(c)+1)+' / '+pad(order.length);
+      titleEl.dataset.i18n='bk_'+c; titleEl.textContent=T('bk_'+c);
+      descEl.dataset.i18n='bk_d_'+c; descEl.textContent=T('bk_d_'+c);
+      show(0); side.classList.remove('is-swap');
+    };
+    if(flip){ flip.cancel(); flip=null; }
+    if(reduce){ swap(); } else {
+      const PERSP='perspective(1800px) ';
+      const out=side.animate([
+        {transform:PERSP+'rotateY(0deg)', opacity:1},
+        {transform:PERSP+'rotateY(-80deg)', opacity:.35}
+      ],{duration:420,easing:'cubic-bezier(.6,0,.4,1)',fill:'forwards'});
+      flip=out;
+      out.onfinish=()=>{
+        out.cancel(); swap();
+        flip=side.animate([
+          {transform:PERSP+'rotateY(80deg)', opacity:.35},
+          {transform:PERSP+'rotateY(0deg)', opacity:1}
+        ],{duration:560,easing:'cubic-bezier(.2,.7,.2,1)'});
+      };
+    }
+  }
+  tabs.forEach((t,i)=>{
+    t.addEventListener('click',()=>setCat(t.dataset.f));
+    t.addEventListener('keydown',e=>{ if(e.key!=='ArrowRight'&&e.key!=='ArrowLeft') return; e.preventDefault(); const j=(i+(e.key==='ArrowRight'?1:-1)+tabs.length)%tabs.length; tabs[j].focus(); setCat(tabs[j].dataset.f); });
+  });
+  thumbs.forEach(t=>t.addEventListener('click',()=>show(list().indexOf(t))));
+  document.getElementById('magPrev').addEventListener('click',()=>show(idx-1));
+  document.getElementById('magNext').addEventListener('click',()=>show(idx+1));
+  const org=e=>{ const r=frame.getBoundingClientRect(); frame.style.setProperty('--ox',((e.clientX-r.left)/r.width*100).toFixed(1)+'%'); frame.style.setProperty('--oy',((e.clientY-r.top)/r.height*100).toFixed(1)+'%'); };
+  frame.addEventListener('mousemove',org);
+  frame.addEventListener('mouseleave',()=>{ frame.style.removeProperty('--ox'); frame.style.removeProperty('--oy'); });
+  frame.addEventListener('click',e=>{ if(!touch) return; org(e); frame.classList.toggle('is-zoom'); });
+  window.lbSync=function(){
+    thumbs.forEach(t=>{ if(t.dataset.k) t.setAttribute('aria-label',T(t.dataset.k)); });
+    imgs.forEach(im=>{ if(im.dataset.k) im.alt=T(im.dataset.k); });
+  };
+  lbSync();
+  show(0);
 })();
 
 /* ---------- generated ornament placeholder ---------- */
@@ -531,7 +601,7 @@ function renderMarquee(){
 
 /* ---------- image protection ---------- */
 (function(){
-  const MEDIA='img,video,.piece,.tour-item,.ba,.orn-img,.v-stage,.insp-stage,.ig-cell,.ig-hi,.ig-av,.hero .portrait,.banner-bg';
+  const MEDIA='img,video,.piece,.mag-frame,.mag-th,.tour-item,.ba,.v-stage,.insp-stage,.ig-cell,.ig-hi,.ig-av,.hero .portrait,.banner-bg';
   document.addEventListener('contextmenu',e=>{ if(e.target.closest&&e.target.closest(MEDIA)) e.preventDefault(); });
   document.addEventListener('dragstart',e=>{ if(e.target.tagName==='IMG'||e.target.tagName==='VIDEO') e.preventDefault(); });
   document.querySelectorAll('video').forEach(v=>{ v.setAttribute('controlsList','nodownload noplaybackrate'); v.disablePictureInPicture=true; });
