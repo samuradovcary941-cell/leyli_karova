@@ -30,6 +30,7 @@
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Playfair+Display:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,slnt,wdth,wght@8..144,-10..0,25..151,100..1000&display=swap" rel="stylesheet">
 <script>try{if(sessionStorage.getItem("lk-intro"))document.documentElement.classList.add("skip-intro")}catch(e){}</script>
 </head>
@@ -41,7 +42,7 @@
   <a class="brand" href="#top" aria-label="Leyli Karova"><img src="images/logo.png" alt="LK Leyli Karova"></a>
   <nav class="nav" aria-label="Main">
     <a href="#pieces" data-i18n="nav_pieces">Pieces</a>
-    <a href="#ornaments" data-i18n="nav_orn">Ornaments</a>
+    <a href="#lookbook" data-i18n="nav_look">Lookbook</a>
     <a href="#process" data-i18n="nav_process">Process</a>
         <a href="#author" data-i18n="nav_author">Author</a>
     <a href="#instagram" data-i18n="nav_inquiry">Inquiries</a>
@@ -54,7 +55,7 @@
 <div class="menu" id="menu" aria-hidden="true" inert>
   <nav aria-label="Menu">
     <a href="#pieces" style="--i:0"><i>01</i><span data-i18n="nav_pieces">Pieces</span></a>
-    <a href="#ornaments" style="--i:1"><i>02</i><span data-i18n="nav_orn">Ornaments</span></a>
+    <a href="#lookbook" style="--i:1"><i>02</i><span data-i18n="nav_look">Lookbook</span></a>
     <a href="#process" style="--i:2"><i>03</i><span data-i18n="nav_process">Process</span></a>
     <a href="#author" style="--i:3"><i>04</i><span data-i18n="nav_author">Author</span></a>
     <a href="#instagram" style="--i:4"><i>05</i><span data-i18n="nav_inquiry">Inquiries</span></a>
@@ -169,33 +170,66 @@
     </div>
   </section>
 
-  <section class="wrap" id="ornaments">
-    <div class="head"><h2 data-i18n="orn">Ornament and its meaning</h2><small data-i18n="orn_s">Every pattern carries a story. Turkmen motifs are one of the languages the pieces are written in.</small></div>
-    <div class="orn-list">
-      <article class="orn rv">
-        <div class="orn-img"><img src="images/ornament-takhya.webp" alt="Painted Turkmen headdress with red stones and silver pendants" loading="lazy" decoding="async" draggable="false"></div>
-        <div class="orn-txt"><span class="orn-n ol">01</span><h3>Börük</h3><p data-i18n="o1">The traditional headdress of Turkmen women: gilded plates set with red stones. On the blazer it is painted as a portrait, not copied.</p></div>
-      </article>
-      <article class="orn rv">
-        <div class="orn-img"><img src="images/ornament-gul.webp" alt="Gold medallion with red stones next to a painted profile" loading="lazy" decoding="async" draggable="false"></div>
-        <div class="orn-txt"><span class="orn-n ol">02</span><h3>Gül</h3><p data-i18n="o2">The medallion of Turkmen carpets. Each tribe has its own gül, so the motif works as a sign of belonging.</p></div>
-      </article>
-      <article class="orn rv">
-        <div class="orn-img"><img src="images/ornament-gumush.webp" alt="Silver pendants and chains framing a painted face" loading="lazy" decoding="async" draggable="false"></div>
-        <div class="orn-txt"><span class="orn-n ol">03</span><h3>Kümüş</h3><p data-i18n="o3">Silver pendants and chains frame the face, as in traditional dress, and give the portrait its light.</p></div>
-      </article>
-      <article class="orn rv">
-        <div class="orn-img"><img src="images/ornament-cap.webp" alt="Gold medallion with red stones next to a painted profile" loading="lazy" decoding="async" draggable="false"></div>
-        <div class="orn-txt"><span class="orn-n ol">04</span><h3>Kepka</h3><p data-i18n="o4">The medallion of Turkmen carpets. Each tribe has its own gül, so the motif works as a sign of belonging.</p></div>
-      </article>
-      <article class="orn rv">
-        <div class="orn-img"><img src="images/ornament-suit.webp" alt="Silver pendants and chains framing a painted face" loading="lazy" decoding="async" draggable="false"></div>
-        <div class="orn-txt"><span class="orn-n ol">05</span><h3>Kokoşnik</h3><p data-i18n="o5">Silver pendants and chains frame the face, as in traditional dress, and give the portrait its light.</p></div>
-      </article>
-      <article class="orn rv">
-        <div class="orn-img"><img src="images/ornament-suit1.webp" alt="Gold medallion with red stones next to a painted profile" loading="lazy" decoding="async" draggable="false"></div>
-        <div class="orn-txt"><span class="orn-n ol">06</span><h3>Nar</h3><p data-i18n="o6">The medallion of Turkmen carpets. Each tribe has its own gül, so the motif works as a sign of belonging.</p></div>
-      </article>
+
+  <section class="mag" id="lookbook" aria-labelledby="bkTitle">
+    <div class="mag-in">
+      <div class="mag-issue"><span>Leyli Karova</span><span class="mag-mid" data-i18n="bk_kicker">Hand-painted · One of one</span></div>
+      <h2 class="mag-h" id="bkTitle" data-i18n="bk_h">Lookbook</h2>
+      <p class="mag-deck" data-i18n="bk_s">Blazers, denim, caps and how they look in real life.</p>
+      <div class="mag-tabs" role="group" data-aria="bk_aria" aria-label="Lookbook chapters">
+        <button type="button" class="mag-tab" data-f="blazer" aria-pressed="true"><i>01</i><span data-i18n="bk_blazer">Blazers</span></button>
+        <button type="button" class="mag-tab" data-f="denim" aria-pressed="false"><i>02</i><span data-i18n="bk_denim">Denim jackets</span></button>
+        <button type="button" class="mag-tab" data-f="cap" aria-pressed="false"><i>03</i><span data-i18n="bk_cap">Caps</span></button>
+        <button type="button" class="mag-tab" data-f="tee" aria-pressed="false"><i>04</i><span data-i18n="bk_tee">T-shirts</span></button>
+        <button type="button" class="mag-tab" data-f="detail" aria-pressed="false"><i>05</i><span data-i18n="bk_detail">Details</span></button>
+        <button type="button" class="mag-tab" data-f="model" aria-pressed="false"><i>06</i><span data-i18n="bk_model">On model</span></button>
+      </div>
+      <!-- LOOKBOOK: each .mag-th is one photo. Set data-cat (blazer / denim / cap / tee / detail / model), data-src (big photo), data-alt, and the src of the small <img>. Copy a button to add a photo. -->
+      <div class="mag-book">
+        <figure class="mag-fig">
+          <div class="mag-frame">
+            <img class="mag-i" id="magImgA" data-k="lb_bl1" src="images/lookbook/bl-1.webp" alt="Hand-painted blazer: a woman and a warrior behind a sword" decoding="async" draggable="false">
+            <img class="mag-i" id="magImgB" src="" alt="" aria-hidden="true" decoding="async" draggable="false" style="visibility:hidden">
+          </div>
+          <figcaption class="mag-cap"><span id="magNo">01 / 07</span><span data-i18n="bk_zoom">Zoom in to see the paint</span></figcaption>
+        </figure>
+        <div class="mag-side" id="magSide">
+          <div class="mag-run"><span id="magCh">01 / 06</span></div>
+          <h3 class="mag-title" id="magTitle" data-i18n="bk_blazer">Blazers</h3>
+          <p class="mag-desc" id="magDesc" data-i18n="bk_d_blazer">Each blazer is painted by hand from the first line to the last, and exists only once.</p>
+          <div class="mag-thumbs" id="magThumbs">
+            <button type="button" class="mag-th" data-cat="blazer" data-src="images/work-14.webp" data-k="lb_bl1" data-alt="Hand-painted blazer: a woman and a warrior behind a sword" aria-label="Hand-painted blazer: a woman and a warrior behind a sword"><img src="images/work-14.webp" alt="" loading="lazy" decoding="async" draggable="false"></button>
+            <button type="button" class="mag-th" data-cat="blazer" data-src="images/work-2.webp" data-k="lb_bl2" data-alt="Hand-painted blazer: a Turkmen bride in a veil with silver jewellery" aria-label="Hand-painted blazer: a Turkmen bride in a veil with silver jewellery"><img src="images/work-2.webp" alt="" loading="lazy" decoding="async" draggable="false"></button>
+            <button type="button" class="mag-th" data-cat="blazer" data-src="images/work-3.webp" data-k="lb_bl3" data-alt="Hand-painted blazer: a girl in a kokoshnik of pearls and lace" aria-label="Hand-painted blazer: a girl in a kokoshnik of pearls and lace"><img src="images/work-3.webp" alt="" loading="lazy" decoding="async" draggable="false"></button>
+            <button type="button" class="mag-th" data-cat="blazer" data-src="images/work-4.webp" data-k="lb_bl4" data-alt="Hand-painted blazer: a girl with a pomegranate and carpet motifs, with a name" aria-label="Hand-painted blazer: a girl with a pomegranate and carpet motifs, with a name"><img src="images/work-4.webp" alt="" loading="lazy" decoding="async" draggable="false"></button>
+            <button type="button" class="mag-th" data-cat="blazer" data-src="images/work-5.webp" data-k="lb_bl5" data-alt="Hand-painted blazer: a girl in a red kokoshnik with crystals and a red bow" aria-label="Hand-painted blazer: a girl in a red kokoshnik with crystals and a red bow"><img src="images/work-5.webp" alt="" loading="lazy" decoding="async" draggable="false"></button>
+            <button type="button" class="mag-th" data-cat="blazer" data-src="images/work-6.webp" data-k="lb_bl6" data-alt="Hand-painted jacket: a Turkmen bride with a silver pendant" aria-label="Hand-painted jacket: a Turkmen bride with a silver pendant"><img src="images/work-6.webp" alt="" loading="lazy" decoding="async" draggable="false"></button>
+            <button type="button" class="mag-th" data-cat="blazer" data-src="images/work-7.webp" data-k="lb_bl7" data-alt="Hand-painted blazer: a girl in a flower wreath and embroidered blouse" aria-label="Hand-painted blazer: a girl in a flower wreath and embroidered blouse"><img src="images/work-7.webp" alt="" loading="lazy" decoding="async" draggable="false"></button>
+            <button type="button" class="mag-th" data-cat="denim" data-src="images/work-15.webp" data-k="lb_dn1" data-alt="Hand-painted denim jacket: a girl in a veil with braids" aria-label="Hand-painted denim jacket: a girl in a veil with braids" hidden><img src="images/work-15.webp" alt="" loading="lazy" decoding="async" draggable="false"></button>
+            <button type="button" class="mag-th" data-cat="denim" data-src="images/work-2.webp" data-k="lb_dn2" data-alt="Hand-painted denim jacket: a Turkmen bride in a veil" aria-label="Hand-painted denim jacket: a Turkmen bride in a veil" hidden><img src="images/work-2.webp" alt="" loading="lazy" decoding="async" draggable="false"></button>
+            <button type="button" class="mag-th" data-cat="denim" data-src="images/work-3.webp" data-k="lb_dn3" data-alt="Hand-painted denim jacket on a chair: a bride in a veil" aria-label="Hand-painted denim jacket on a chair: a bride in a veil" hidden><img src="images/work-3.webp" alt="" loading="lazy" decoding="async" draggable="false"></button>
+            <button type="button" class="mag-th" data-cat="denim" data-src="images/work-4.webp" data-k="lb_dn4" data-alt="Hand-painted white jacket: an abstract portrait with gold" aria-label="Hand-painted white jacket: an abstract portrait with gold" hidden><img src="images/work-4.webp" alt="" loading="lazy" decoding="async" draggable="false"></button>
+            <button type="button" class="mag-th" data-cat="cap" data-src="images/work-12.webp" data-k="lb_cp1" data-alt="Hand-painted baseball cap: a girl in a kokoshnik with flowers" aria-label="Hand-painted baseball cap: a girl in a kokoshnik with flowers" hidden><img src="images/work-12.webp" alt="" loading="lazy" decoding="async" draggable="false"></button>
+            <button type="button" class="mag-th" data-cat="tee" data-src="images/work-1.webp" data-k="lb_tt1" data-alt="Hand-painted white T-shirt: a girl in a Turkmen headdress" aria-label="Hand-painted white T-shirt: a girl in a Turkmen headdress" hidden><img src="images/work-1.webp" alt="" loading="lazy" decoding="async" draggable="false"></button>
+            <button type="button" class="mag-th" data-cat="tee" data-src="images/work-2.webp" data-k="lb_tt2" data-alt="Hand-painted black T-shirt: a girl with green eyes and silver pendants" aria-label="Hand-painted black T-shirt: a girl with green eyes and silver pendants" hidden><img src="images/work-2.webp" alt="" loading="lazy" decoding="async" draggable="false"></button>
+            <button type="button" class="mag-th" data-cat="detail" data-src="images/work-13.webp" data-k="lb_dt1" data-alt="Close-up: silver pendants and a painted face" aria-label="Close-up: silver pendants and a painted face" hidden><img src="images/work-13.webp" alt="" loading="lazy" decoding="async" draggable="false"></button>
+            <button type="button" class="mag-th" data-cat="detail" data-src="images/work-2.webp" data-k="lb_dt2" data-alt="Close-up: red stones and a profile in paint" aria-label="Close-up: red stones and a profile in paint" hidden><img src="images/work-2.webp" alt="" loading="lazy" decoding="async" draggable="false"></button>
+            <button type="button" class="mag-th" data-cat="detail" data-src="images/work-3.webp" data-k="lb_dt3" data-alt="Close-up: a painted gold plate with red stones" aria-label="Close-up: a painted gold plate with red stones" hidden><img src="images/work-3.webp" alt="" loading="lazy" decoding="async" draggable="false"></button>
+            <button type="button" class="mag-th" data-cat="detail" data-src="images/work-4.webp" data-k="lb_dt4" data-alt="Process: a portrait on black fabric with brushes and a ribbon" aria-label="Process: a portrait on black fabric with brushes and a ribbon" hidden><img src="images/work-4.webp" alt="" loading="lazy" decoding="async" draggable="false"></button>
+            <button type="button" class="mag-th" data-cat="model" data-src="images/world-1.webp" data-k="lb_w1" data-alt="Painted jacket worn on a model" aria-label="Painted jacket worn on a model" hidden><img src="images/world-1.webp" alt="" loading="lazy" decoding="async" draggable="false"></button>
+            <button type="button" class="mag-th" data-cat="model" data-src="images/world-2.webp" data-k="lb_w2" data-alt="Painted jacket worn on a model" aria-label="Painted jacket worn on a model" hidden><img src="images/world-2.webp" alt="" loading="lazy" decoding="async" draggable="false"></button>
+            <button type="button" class="mag-th" data-cat="model" data-src="images/world-3.webp" data-k="lb_w3" data-alt="Painted jacket worn by a model in Milan" aria-label="Painted jacket worn by a model in Milan" hidden><img src="images/world-3.webp" alt="" loading="lazy" decoding="async" draggable="false"></button>
+            <button type="button" class="mag-th" data-cat="model" data-src="images/world-4.webp" data-k="lb_w4" data-alt="Painted jacket worn on a model" aria-label="Painted jacket worn on a model" hidden><img src="images/world-4.webp" alt="" loading="lazy" decoding="async" draggable="false"></button>
+            <button type="button" class="mag-th" data-cat="model" data-src="images/world-5.webp" data-k="lb_w5" data-alt="Painted jacket worn by a model in Venice" aria-label="Painted jacket worn by a model in Venice" hidden><img src="images/world-5.webp" alt="" loading="lazy" decoding="async" draggable="false"></button>
+            <button type="button" class="mag-th" data-cat="model" data-src="images/world-6.webp" data-k="lb_w6" data-alt="Painted jacket worn on a model" aria-label="Painted jacket worn on a model" hidden><img src="images/world-6.webp" alt="" loading="lazy" decoding="async" draggable="false"></button>
+          </div>
+          <div class="mag-nav">
+            <button type="button" class="mag-arr" id="magPrev" data-aria="au_lb_p" aria-label="Previous photo">&#8592;</button>
+            <button type="button" class="mag-arr" id="magNext" data-aria="au_lb_n" aria-label="Next photo">&#8594;</button>
+            <a class="mag-cta" href="#instagram" data-i18n="bk_cta">Order a piece like this</a>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
 
