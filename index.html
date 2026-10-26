@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -298,8 +299,22 @@
     </div>
   </section>
 
+  <div class="film rv" id="film">
+    <i class="film-bg" aria-hidden="true"></i>
+    <div class="film-view">
+      <!-- CLIENT VIDEO: put the files in video/ (luxury-car.mp4 + luxury-car.webm, up to ~10 MB) and a still frame in images/luxury-car-poster.jpg. Vertical 9:16 video; the blurred backdrop is made from the poster -->
+      <video id="filmVideo" muted loop playsinline preload="metadata" tabindex="0" poster="images/poster.webp" data-aria="au_f_aria" aria-label="Video: a client in a hand-painted Leyli Karova jacket gets into a luxury car">
+        <source src="video/luxury-car.webm" type="video/webm">
+        <source src="video/luxury-car.mp4" type="video/mp4">
+      </video>
+    </div>
+    <button class="film-snd" type="button" data-aria="au_f_snd" aria-label="Sound on or off" aria-pressed="false">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 9v6h4l5 4V5L8 9z"/><path class="s-off" d="M16.5 9.5l5 5M21.5 9.5l-5 5"/><path class="s-on" d="M16.5 8.5a5 5 0 0 1 0 7M19 6a8.5 8.5 0 0 1 0 12"/></svg>
+    </button>
+    <i class="film-bar" aria-hidden="true"><b></b></i>
+    <div class="film-cap"><h2 id="authorTitle" data-i18n="au_h">Born in Turkmenistan. Recognised worldwide.</h2><small data-i18n="au_s">From Ashgabat to every corner of the world.</small></div>
+  </div>
   <section class="wrap author" id="author" aria-labelledby="authorTitle">
-    <div class="head"><h2 class="ol" id="authorTitle" data-i18n="au_h">Born in Turkmenistan. Recognised worldwide.</h2><small data-i18n="au_s">From Ashgabat to every corner of the world.</small></div>
     <div class="au-text rv"><p data-i18n="au_p">Every piece is made by hand, combining the culture, history and individuality of its owner. That is why my works find their owners all over the world.</p><a class="btn" href="https://instagram.com/leyli_karova" target="_blank" rel="noopener" data-i18n="au_cta">Follow along on Instagram</a></div>
     <div class="collage" role="group" data-aria="au_aria" aria-label="Photos from around the world">
 <figure class="cl" tabindex="0" role="button" aria-haspopup="dialog"><div class="cl-img"><img src="images/world-1.webp" alt="Hand-painted Turkmen portrait on the back of a cream jacket, worn on a boat at sea with a Turkmen flag flying behind" loading="lazy" decoding="async" draggable="false"></div><figcaption><span class="cl-n">01</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-6.5-5.6-6.5-11a6.5 6.5 0 0 1 13 0c0 5.4-6.5 11-6.5 11z"/><circle cx="12" cy="10" r="2.3"/></svg><span data-i18n="au_l1">At sea</span></figcaption></figure>
