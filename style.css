@@ -814,3 +814,35 @@ html[lang=tk] .a-row{font-size:clamp(26px,7vw,100px)}
 #instagram{contain-intrinsic-size:auto 720px}
 #social{contain-intrinsic-size:auto 320px}
 footer{contain-intrinsic-size:auto 160px}
+
+
+/* ===== film: vertical video + block title on a full-bleed band ===== */
+.film{--fh:clamp(560px,88vh,920px);--vw:calc(var(--fh)*9/16);--vr:max(var(--pad),calc((100% - 1280px)/2 + var(--pad)));position:relative;height:var(--fh);margin:0 0 clamp(40px,6vw,80px);overflow:hidden;background:radial-gradient(ellipse 60% 90% at 78% 50%,var(--indigo),var(--night) 75%)}
+.film-bg{position:absolute;inset:-6%;z-index:0;background:url(images/luxury-car-poster.jpg) 50% 40%/cover;filter:blur(46px) brightness(.5) saturate(1.15)}
+.film::before{content:"";position:absolute;inset:0;z-index:1;pointer-events:none;background:linear-gradient(90deg,rgba(5,10,22,.7),rgba(5,10,22,0) 62%)}
+.film::after{content:"";position:absolute;z-index:3;left:var(--pad);right:var(--pad);top:clamp(18px,2.4vw,32px);height:1px;pointer-events:none;background:linear-gradient(90deg,var(--chain),rgba(214,205,180,0))}
+.film-view{position:absolute;z-index:2;top:0;bottom:0;right:var(--vr);width:var(--vw);background:#000;box-shadow:0 0 140px -30px rgba(0,0,0,.85)}
+.film-view video{display:block;touch-action:pan-y;width:100%;height:100%;object-fit:cover;cursor:pointer}
+.film-view video:focus-visible{outline:2px solid var(--chain);outline-offset:-4px}
+.film-cap{position:absolute;z-index:3;left:0;right:0;bottom:clamp(36px,6vw,84px);max-width:1280px;margin:0 auto;padding:0 calc(var(--vw) + clamp(24px,4vw,64px)) 0 var(--pad);box-sizing:border-box}
+.film-cap h2{margin:0 0 18px;max-width:11em;text-wrap:balance;overflow-wrap:break-word;font-family:var(--serif);font-weight:1000;font-stretch:151%;font-variation-settings:"slnt" -10;text-transform:uppercase;font-size:clamp(26px,3.4vw,54px);line-height:1;letter-spacing:-.02em;background:linear-gradient(100deg,#fbf1d3 0%,#d6c28c 45%,#f4e9c6 75%,#c9b27a 100%);-webkit-background-clip:text;background-clip:text;color:transparent;filter:drop-shadow(0 6px 30px rgba(0,0,0,.55))}
+.film-cap small{display:block;max-width:26em;font-size:clamp(14px,1.3vw,18px);line-height:1.5;color:rgba(236,232,223,.8)}
+.film-snd{position:absolute;z-index:4;right:calc(var(--vr) + 14px);bottom:22px;width:44px;height:44px;display:flex;align-items:center;justify-content:center;padding:0;border:1px solid rgba(246,236,208,.55);border-radius:50%;background:rgba(5,10,22,.45);-webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px);color:#f6ecd0;cursor:pointer;transition:background .25s}
+.film-snd:hover{background:rgba(5,10,22,.8)}
+.film-snd:focus-visible{outline:2px solid var(--chain);outline-offset:3px}
+.film-snd svg{width:20px;height:20px}
+.film-snd .s-on,.film-snd[aria-pressed="true"] .s-off{display:none}
+.film-snd[aria-pressed="true"] .s-on{display:block}
+.film-bar{position:absolute;z-index:4;bottom:0;right:var(--vr);width:var(--vw);height:2px;background:rgba(246,236,208,.2)}
+.film-bar b{display:block;height:100%;background:#f6ecd0;transform:scaleX(0);transform-origin:left;transition:transform .25s linear}
+@media (max-width:760px){
+  .film{height:min(160vw,88vh)}
+  .film-bg{display:none}
+  .film::before{background:linear-gradient(180deg,rgba(5,10,22,.4) 0%,rgba(5,10,22,0) 24%,rgba(5,10,22,.15) 46%,rgba(5,10,22,.94) 100%)}
+  .film-view{inset:0;right:0;width:auto;box-shadow:none}
+  .film-cap{bottom:32px;padding:0 var(--pad)}
+  .film-cap h2{font-size:7.6vw;font-stretch:135%}
+  .film-snd{right:var(--pad);top:calc(env(safe-area-inset-top,0px) + 18px);bottom:auto}
+  .film-bar{right:0;width:100%}
+}
+@media (prefers-reduced-motion:reduce){.film-bar b{transition:none}}
