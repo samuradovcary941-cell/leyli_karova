@@ -527,6 +527,7 @@ html[lang=tk] .a-row{font-size:clamp(26px,7vw,100px)}
   background:radial-gradient(closest-side,var(--tint),transparent)}
 .soc-ig{--tint:rgba(214,70,118,.34)}
 .soc-tt{--tint:rgba(52,196,208,.30)}
+.soc-yt{--tint:rgba(224,64,64,.30);grid-column:1/-1;min-height:clamp(200px,20vw,260px)}
 .soc:hover{transform:translateY(-5px);border-color:rgba(214,205,180,.55)}
 .soc:hover::before{opacity:1;transform:scale(1.12)}
 .soc-top{display:flex;align-items:center;justify-content:space-between;gap:16px}
