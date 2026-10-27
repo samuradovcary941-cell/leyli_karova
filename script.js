@@ -12,7 +12,7 @@ const REVIEWS = [];
 const I18N = {
   en:{
     cta_order:'Order a piece',nav_author:'Author',menu_aria:'Menu',au_h:'Born in Turkmenistan. Recognised worldwide.',au_f_aria:'Video: a client in a hand-painted Leyli Karova jacket gets into a luxury car',au_f_snd:'Sound on or off',au_s:'From Ashgabat to every corner of the world.',au_p:'Every piece is made by hand, combining the culture, history and individuality of its owner. That is why my works find their owners all over the world.',au_cta:'Follow along on Instagram',au_l1:'At sea',au_l2:'Milan · Duomo roofs',au_l3:'Milan · Duomo terraces',au_l4:'Milan · Piazza del Duomo',au_l5:'Venice · Piazza San Marco',au_l6:'New York · waterfront',au_l7:'New York · Times Square',au_l8:'Dubai · night',au_l9:'Old town',au_l10:'Tulip season',au_l11:'Up close',au_l12:'Moscow · Red Square',au_l13:'Dubai · sunset',au_l14:'Egypt · Giza',au_l15:'Among the flowers',au_l16:'City street',au_l17:'Grand staircase',au_l18:'Old olive tree',au_aria:'Photos from around the world',au_cl_h:'9 places, one ornament',au_cl_s:'At sea · Milan · Venice · New York · Dubai · Moscow · Egypt · Old town · Tulip season',au_lb:'Photo viewer',au_lb_p:'Previous photo',au_lb_n:'Next photo',pv_h:'Watch a pattern being born',pv_p:'A short silent clip from the studio, from the first line to the last stroke.',pv_cta:'More process on TikTok',pv_tag:'No sound',pv_aria:'Silent process video: an ornament being painted by hand',pv_toggle:'Play or pause the video',ig_post:'Post {n} on Instagram',pv_c1:'Hand-painted',pv_c2:'One of one',seo_t:'Leyli Karova — Hand-Painted Blazers, One of One',seo_d:'Leyli Karova is an artist who hand-paints ornament and portraits on blazers and jackets: Turkmen motifs or any story you choose. Every piece exists once. Order a one-of-one piece.',
-    soc_h:'Follow along',soc_s:'New pieces, process and behind the scenes.',soc_ig_d:'New pieces, stories and reviews.',soc_tt_d:'Process videos and behind the scenes.',soc_open:'Open',soc_soon:'Coming soon',
+    soc_h:'Follow along',soc_s:'New pieces, process and behind the scenes.',soc_ig_d:'New pieces, stories and reviews.',soc_tt_d:'Process videos and behind the scenes.',soc_yt_d:'Longer films: process, studio and finished pieces.',soc_open:'Open',soc_soon:'Coming soon',
     copy:'© 2026 Leyli Karova. All artworks and images on this site are protected by copyright. Copying or using them without written permission is prohibited.',
     ig_follow:'Follow',ig_msg:'Message',ig_contacts:'Contacts',ig_cat:'Artist',ig_hl2:'Reviews ❤️',
     ig_view:'View in Instagram',
@@ -60,7 +60,7 @@ const I18N = {
     inq:'For inquiries, <span class="ol">message me.</span>',ig:'Write on Instagram',foot:'We are Turkmen.'},
   ru:{
     cta_order:'Заказать работу',nav_author:'Автор',menu_aria:'Меню',au_h:'Рождено в Туркменистане. Признано в мире.',au_f_aria:'Видео: заказчица в расписном жакете Leyli Karova садится в люксовый автомобиль',au_f_snd:'Включить или выключить звук',au_s:'Из Ашхабада — в разные уголки мира.',au_p:'Каждая работа создаётся вручную, объединяя культуру, историю и индивидуальность своего владельца. Именно поэтому мои произведения находят своих обладателей по всему миру.',au_cta:'Следить в Instagram',au_l1:'В море',au_l2:'Милан · крыши собора',au_l3:'Милан · террасы собора',au_l4:'Милан · площадь Дуомо',au_l5:'Венеция · площадь Сан-Марко',au_l6:'Нью-Йорк · набережная',au_l7:'Нью-Йорк · Таймс-сквер',au_l8:'Дубай · ночью',au_l9:'Старый город',au_l10:'Сезон тюльпанов',au_l11:'Крупным планом',au_l12:'Москва · Красная площадь',au_l13:'Дубай · на закате',au_l14:'Египет · Гиза',au_l15:'Среди цветов',au_l16:'Городская улица',au_l17:'Парадная лестница',au_l18:'Старое оливковое дерево',au_aria:'Фотографии из разных уголков мира',au_cl_h:'9 мест, один орнамент',au_cl_s:'В море · Милан · Венеция · Нью-Йорк · Дубай · Москва · Египет · Старый город · Сезон тюльпанов',au_lb:'Просмотр фото',au_lb_p:'Предыдущее фото',au_lb_n:'Следующее фото',pv_h:'Как рождается узор',pv_p:'Короткий ролик без звука из мастерской: от первой линии до последнего штриха.',pv_cta:'Больше процесса в TikTok',pv_tag:'Без звука',pv_aria:'Видео процесса без звука: орнамент рисуют вручную',pv_toggle:'Включить или поставить видео на паузу',ig_post:'Публикация {n} в Instagram',pv_c1:'Расписано вручную',pv_c2:'В единственном экземпляре',seo_t:'Лейли Карова — пиджаки с ручной росписью в единственном экземпляре',seo_d:'Лейли Карова — художница, которая вручную рисует орнаменты и портреты на пиджаках и куртках: туркменские мотивы или любая история на ваш выбор. Каждая работа существует в одном экземпляре. Закажите свою.',
-    soc_h:'Следите за новым',soc_s:'Новые работы, процесс и закулисье.',soc_ig_d:'Новые работы, истории и отзывы.',soc_tt_d:'Видео процесса и закулисье.',soc_open:'Открыть',soc_soon:'Скоро',
+    soc_h:'Следите за новым',soc_s:'Новые работы, процесс и закулисье.',soc_ig_d:'Новые работы, истории и отзывы.',soc_tt_d:'Видео процесса и закулисье.',soc_yt_d:'Длинные видео: процесс, мастерская и готовые работы.',soc_open:'Открыть',soc_soon:'Скоро',
     copy:'© 2026 Leyli Karova. Все работы и изображения на сайте защищены авторским правом. Копирование и использование без письменного разрешения запрещены.',
     ig_follow:'Подписаться',ig_msg:'Сообщение',ig_contacts:'Контакты',ig_cat:'Деятель искусств',ig_hl2:'Отзывы ❤️',
     ig_view:'Открыть в Instagram',
@@ -104,7 +104,7 @@ const I18N = {
     inq:'По вопросам заказа — <span class="ol">напишите мне.</span>',ig:'Написать в Instagram',foot:'Мы туркмены.'},
  tk:{
     cta_order:'Eser sargyt et',nav_author:'Awtor',menu_aria:'Menýu',au_h:'Türkmenistanda doguldy. Dünýäde ykrar edildi.',au_f_aria:'Wideo: Leyli Karovanyň elde çekilen penjegini geýen sargytçy lýuks awtoulaga münýär',au_f_snd:'Sesi açmak ýa-da ýapmak',au_s:'Aşgabatdan dünýäniň dürli künjeklerine.',au_p:'Her eser elde ýasalýar we eýesiniň medeniýetini, taryhyny we şahsyýetini birleşdirýär. Şonuň üçin meniň eserlerim dünýäniň ähli ýerinde eýelerini tapýar.',au_cta:'Instagram-da yzarla',au_l1:'Deňizde',au_l2:'Milan · soboryň terassasy',au_l3:'Milan · soboryň gözelligi',au_l4:'Milan · Duomo meýdançasy',au_l5:'Wenesiýa · San-Marko meýdançasy',au_l6:'Nýu-Ýork · kenarýaka',au_l7:'Nýu-Ýork · Taýms-skwer',au_l8:'Dubaý · gijesi',au_l9:'Köne şäher',au_l10:'Lälegül möwsümi',au_l11:'Ýakyndan görnüş',au_l12:'Moskwa · Gyzyl meýdan',au_l13:'Dubaý · gün ýaşanda',au_l14:'Müsür · Giza',au_l15:'Gülleriň arasynda',au_l16:'Şäher köçesi',au_l17:'Uly basgançak',au_l18:'Gadymy zeýtun agajy',au_aria:'Dünýäniň dürli künjeklerinden suratlar',au_cl_h:'9 ýer, bir nagyş',au_cl_s:'Deňizde · Milan · Wenesiýa · Nýu-Ýork · Dubaý · Moskwa · Müsür · Köne şäher · Lälegül möwsümi',au_lb:'Suraty görmek',au_lb_p:'Öňki surat',au_lb_n:'Indiki surat',pv_h:'Nagyş nähili döreýär',pv_p:'Ussahanadan sessiz gysga wideo: ilkinji çyzykdan soňky çyzyga çenli.',pv_cta:'TikTok-da proses barada has köp',pv_tag:'Sessiz',pv_aria:'Sessiz proses wideosy: nagyş elde çekilýär',pv_toggle:'Wideony açmak ýa-da duruzmak',ig_post:'Instagram-da {n}-nji ýazgy',pv_c1:'Elde çekilen',pv_c2:'Ýeke-täk nusgada',seo_t:'Leýli Karowa — elde nagyşlanan ýeke-täk penjekler',seo_d:'Leýli Karowa — nagyşlary we portretleri penjeklere hem kurtkalara elde çekýän suratkeş: türkmen nagyşlary ýa-da özüňiz saýlan islendik hekaýa. Her eser ýeke-täk nusgada bar. Özüňiziňkini sargyt ediň.',
-    soc_h:'Täzelikleri yzarlaň',soc_s:'Täze eserler, proses we perdäniň aňyrsy.',soc_ig_d:'Täze eserler, hekaýalar we pikirler.',soc_tt_d:'Proses wideolary we perdäniň aňyrsy.',soc_open:'Aç',soc_soon:'Ýakynda',
+    soc_h:'Täzelikleri yzarlaň',soc_s:'Täze eserler, proses we perdäniň aňyrsy.',soc_ig_d:'Täze eserler, hekaýalar we pikirler.',soc_tt_d:'Proses wideolary we perdäniň aňyrsy.',soc_yt_d:'Uzyn wideolar: proses, ussahana we taýýar eserler.',soc_open:'Aç',soc_soon:'Ýakynda',
     copy:'© 2026 Leyli Karova. Saýtdaky ähli eserler we suratlar awtorlyk hukugy bilen goralýar. Ýazmaça rugsatsyz göçürmek we ulanmak gadagan.',
     ig_follow:'Yzarla',ig_msg:'Habar',ig_contacts:'Aragatnaşyk',ig_cat:'Sungat işgäri',ig_hl2:'Pikirler ❤️',
     ig_view:'Instagram-da aç',
@@ -606,7 +606,7 @@ function renderMarquee(){
     let href=a.getAttribute('href')||''; if(!href) href=DEFAULTS[a.dataset.net]||'';
     if(!href){ a.classList.add('off'); a.removeAttribute('href'); a.setAttribute('aria-disabled','true'); return; }
     a.setAttribute('href',href);
-    const m=href.match(/(?:instagram\.com\/|tiktok\.com\/@)([\w.]+)/i);
+    const m=href.match(/(?:instagram\.com\/|tiktok\.com\/@|youtube\.com\/@)([\w.]+)/i);
     a.querySelector('.soc-handle').textContent=m?'@'+m[1]:'';
   });
 })();
@@ -705,14 +705,21 @@ setLang(saved);
 ;(function(){
   var box=document.getElementById('film'); if(!box) return;
   var v=box.querySelector('video'), s=box.querySelector('.film-snd'), f=box.querySelector('.film-bar b');
-  var userPaused=matchMedia('(prefers-reduced-motion: reduce)').matches, inView=false;
-  v.muted=true;
-  function play(){ var p=v.play(); if(p&&p.catch) p.catch(function(){}); }
+  var userPaused=false, inView=!('IntersectionObserver' in window), blocked=false; /* autoplays even with reduced motion: it is muted, and a click pauses it */
+  v.muted=true; v.defaultMuted=true; v.setAttribute('playsinline','');
+  function play(){ var p=v.play(); if(p&&p.catch) p.catch(function(err){ blocked=true; console.warn('Film video did not start:',err&&err.name,err&&err.message); }); }
   function upd(){ if(inView&&!userPaused) play(); else v.pause(); }
   function toggle(){ if(v.paused){ userPaused=false; play(); } else { userPaused=true; v.pause(); } }
+  /* autoplay can be blocked (iOS Low Power Mode, data saver): retry on the first touch/click/key, and once the first frame is loaded */
+  function unlock(){ if(blocked&&inView&&!userPaused&&v.paused){ blocked=false; play(); } }
+  ['pointerdown','touchstart','keydown'].forEach(function(t){ document.addEventListener(t,unlock,{passive:true}); });
+  v.addEventListener('loadeddata',function(){ if(inView&&!userPaused&&v.paused) play(); });
+  v.querySelectorAll('source').forEach(function(src){ src.addEventListener('error',function(){ console.warn('Film video file is missing or unsupported:',src.getAttribute('src')); }); });
   if('IntersectionObserver' in window) new IntersectionObserver(function(es){ inView=es[0].isIntersecting; upd(); },{threshold:.35}).observe(v);
   v.addEventListener('click',toggle);
   v.addEventListener('keydown',function(e){ if(e.key===' '||e.key==='Enter'){ e.preventDefault(); toggle(); } });
+  if(inView) upd();
   s.addEventListener('click',function(){ v.muted=!v.muted; s.setAttribute('aria-pressed',v.muted?'false':'true'); if(!v.muted&&v.paused){ userPaused=false; play(); } });
   v.addEventListener('timeupdate',function(){ f.style.transform='scaleX('+(v.duration?Math.min(1,v.currentTime/v.duration):0)+')'; });
 })();
+
